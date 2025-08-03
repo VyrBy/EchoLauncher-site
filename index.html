@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>EchoLauncher</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-950 text-white font-sans">
+  <header class="p-6 bg-gray-900 shadow">
+    <div class="max-w-6xl mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold">EchoLauncher</h1>
+      <nav>
+        <a href="#features" class="mx-2 hover:text-cyan-400">Возможности</a>
+        <a href="#download" class="mx-2 hover:text-cyan-400">Скачать</a>
+        <a href="#faq" class="mx-2 hover:text-cyan-400">FAQ</a>
+        <a href="#contact" class="mx-2 hover:text-cyan-400">Контакты</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="text-center py-16 bg-gradient-to-b from-gray-900 to-gray-800" id="hero">
+    <h2 class="text-4xl font-extrabold mb-4">Лаунчер для Minecraft — EchoLauncher</h2>
+    <p class="text-lg text-gray-300 mb-6">Простой, переносимый и мощный лаунчер с поддержкой Ely.by, модов, версий и сборок</p>
+    <a href="#download" class="px-6 py-3 bg-cyan-500 hover:bg-cyan-600 text-white rounded-xl transition">Скачать сейчас</a>
+  </section>
+
+  <section class="max-w-4xl mx-auto py-16 px-4" id="features">
+    <h3 class="text-3xl font-bold mb-6 text-center">Что умеет EchoLauncher</h3>
+    <ul class="space-y-4 text-lg">
+      <li>✅ Авторизация через <strong>Ely.by</strong> и поддержка <code>authlib-injector</code></li>
+      <li>📦 Установка и управление <strong>сборками</strong> в отдельной папке</li>
+      <li>⚙️ Поддержка <strong>Forge, Fabric, Vanilla</strong> и автоматическая установка версий</li>
+      <li>🧩 Загрузка <strong>модов</strong> с <strong>CurseForge и Modrinth</strong>, фильтрация по сборке</li>
+      <li>💾 Полностью <strong>portable</strong> — запускается с флешки или отдельной папки</li>
+      <li>🖼️ Интерфейс на <strong>Tkinter</strong>, простой и понятный</li>
+    </ul>
+  </section>
+
+  <section class="bg-gray-800 py-16 text-center" id="download">
+    <h3 class="text-3xl font-bold mb-6">Скачать лаунчер</h3>
+    <p class="mb-4 text-gray-300">Совместим с Windows 10/11. Требуется установленный Java.</p>
+    <a href="https://github.com/VyrBy/EchoLauncher/releases" class="px-6 py-3 bg-green-500 hover:bg-green-600 text-white rounded-xl transition">Скачать .exe</a>
+  </section>
+
+  <section class="max-w-3xl mx-auto py-16 px-4" id="faq">
+    <h3 class="text-3xl font-bold mb-6 text-center">Частые вопросы</h3>
+    <div class="space-y-4">
+      <div>
+        <h4 class="font-semibold">Можно ли запускать с флешки?</h4>
+        <p class="text-gray-400">Да! Лаунчер не требует установки и сохраняет все файлы в своей директории.</p>
+      </div>
+      <div>
+        <h4 class="font-semibold">Как добавить моды?</h4>
+        <p class="text-gray-400">Через встроенное окно выбора модов — моды автоматически фильтруются по выбранной сборке.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-gray-900 text-gray-400 text-center py-6" id="contact">
+    <p>EchoLauncher © 2025. Разработано VyrBy.</p>
+    <p>
+      <a href="https://github.com/VyrBy/EchoLauncher" class="hover:text-white">GitHub</a> |
+      <a href="https://discord.gg/yourserver" class="hover:text-white">Discord</a>
+    </p>
+  </footer>
+</body>
+</html>
